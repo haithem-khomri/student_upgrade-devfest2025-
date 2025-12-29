@@ -1,0 +1,39 @@
+{
+  "name": "AI Student Productivity Platform",
+  "short_name": "Student AI",
+  "description": "AI-powered productivity tools for university students. Get study recommendations, generate flashcards, and access personalized learning resources.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#000000",
+  "theme_color": "#4b58ff",
+  "scope": "/",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["education", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "لوحة التحكم",
+      "short_name": "الرئيسية",
+      "description": "الوصول لجميع أدوات الدراسة",
+      "url": "/dashboard",
+      "icons": [{ "src": "/icon.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "المساعد الذكي",
+      "short_name": "المساعد",
+      "description": "تحدث مع المساعد الذكي",
+      "url": "/features/chatbot",
+      "icons": [{ "src": "/icon.png", "sizes": "192x192" }]
+    }
+  ]
+}

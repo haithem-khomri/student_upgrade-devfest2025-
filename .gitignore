@@ -1,0 +1,86 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+ENV/
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+*.egg-info/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Vector database
+faiss_index/
+*.index
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Python
+*.py[cod]
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# TypeScript
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+.nyc_output/
+*.lcov
+htmlcov/
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+
+# Face recognition models (if downloaded locally)
+*.dat
+*.pb
+models/
+
+# Build artifacts
+frontend/.next/standalone/
+frontend/scripts/*.js
+
+# IDE specific
+*.code-workspace
+.vscode/settings.json
+.idea/workspace.xml
+

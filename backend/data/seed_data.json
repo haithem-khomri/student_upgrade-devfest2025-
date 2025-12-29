@@ -1,0 +1,883 @@
+{
+  "university": {
+    "name": "جامعة الجزائر 1",
+    "name_fr": "Université d'Alger 1",
+    "faculty": "كلية العلوم الدقيقة والإعلام الآلي",
+    "department": "قسم الإعلام الآلي"
+  },
+  
+  "specialities": [
+    {
+      "id": "licence_info",
+      "name": "إعلام آلي - ليسانس",
+      "name_fr": "Informatique - Licence",
+      "code": "INFO-L",
+      "level": "licence",
+      "years": ["L1", "L2", "L3"],
+      "description": "تكوين قاعدي في الإعلام الآلي - 3 سنوات"
+    },
+    {
+      "id": "master_ia",
+      "name": "الذكاء الاصطناعي - ماستر",
+      "name_fr": "Intelligence Artificielle - Master",
+      "code": "IA-M",
+      "level": "master",
+      "years": ["M1", "M2"],
+      "description": "تخصص في تعلم الآلة والذكاء الاصطناعي ومعالجة اللغات الطبيعية"
+    },
+    {
+      "id": "master_rsd",
+      "name": "الشبكات والأنظمة الموزعة - ماستر",
+      "name_fr": "Réseaux et Systèmes Distribués - Master",
+      "code": "RSD-M",
+      "level": "master",
+      "years": ["M1", "M2"],
+      "description": "تخصص في شبكات الحاسوب والأنظمة الموزعة والحوسبة السحابية"
+    }
+  ],
+  
+  "modules": [
+    {
+      "id": "algo1_l1_s1",
+      "name": "خوارزميات وهياكل البيانات 1",
+      "name_fr": "Algorithmique et Structures de Données 1",
+      "code": "ALGO1",
+      "speciality_id": "licence_info",
+      "year": "L1",
+      "semester": 1,
+      "credits": 6,
+      "coefficient": 3,
+      "difficulty": 7,
+      "description": "مقدمة في الخوارزميات وتعقيداتها وهياكل البيانات الأساسية"
+    },
+    {
+      "id": "prog1_l1_s1",
+      "name": "البرمجة 1 - لغة C",
+      "name_fr": "Programmation 1 - Langage C",
+      "code": "PROG1",
+      "speciality_id": "licence_info",
+      "year": "L1",
+      "semester": 1,
+      "credits": 4,
+      "coefficient": 2,
+      "difficulty": 6,
+      "description": "أساسيات البرمجة بلغة C"
+    },
+    {
+      "id": "math1_l1_s1",
+      "name": "الجبر 1",
+      "name_fr": "Algèbre 1",
+      "code": "ALG1",
+      "speciality_id": "licence_info",
+      "year": "L1",
+      "semester": 1,
+      "credits": 6,
+      "coefficient": 3,
+      "difficulty": 8,
+      "description": "المصفوفات، الفضاءات الشعاعية، التحويلات الخطية"
+    },
+    {
+      "id": "analyse1_l1_s1",
+      "name": "التحليل 1",
+      "name_fr": "Analyse 1",
+      "code": "ANA1",
+      "speciality_id": "licence_info",
+      "year": "L1",
+      "semester": 1,
+      "credits": 6,
+      "coefficient": 3,
+      "difficulty": 8,
+      "description": "النهايات، الاستمرارية، الاشتقاق، التكامل"
+    },
+    {
+      "id": "archi_l1_s1",
+      "name": "بنية الحاسوب",
+      "name_fr": "Architecture des Ordinateurs",
+      "code": "ARCHI",
+      "speciality_id": "licence_info",
+      "year": "L1",
+      "semester": 1,
+      "credits": 4,
+      "coefficient": 2,
+      "difficulty": 6,
+      "description": "مكونات الحاسوب، الذاكرة، المعالج"
+    },
+    {
+      "id": "algo2_l1_s2",
+      "name": "خوارزميات وهياكل البيانات 2",
+      "name_fr": "Algorithmique et Structures de Données 2",
+      "code": "ALGO2",
+      "speciality_id": "licence_info",
+      "year": "L1",
+      "semester": 2,
+      "credits": 6,
+      "coefficient": 3,
+      "difficulty": 8,
+      "description": "الأشجار، الرسوم البيانية، خوارزميات الترتيب والبحث"
+    },
+    {
+      "id": "poo_l1_s2",
+      "name": "البرمجة الكائنية - Java",
+      "name_fr": "Programmation Orientée Objet - Java",
+      "code": "POO",
+      "speciality_id": "licence_info",
+      "year": "L1",
+      "semester": 2,
+      "credits": 4,
+      "coefficient": 2,
+      "difficulty": 7,
+      "description": "مبادئ البرمجة الكائنية بلغة Java"
+    },
+    {
+      "id": "bdd_l2_s1",
+      "name": "قواعد البيانات",
+      "name_fr": "Bases de Données",
+      "code": "BDD",
+      "speciality_id": "licence_info",
+      "year": "L2",
+      "semester": 1,
+      "credits": 6,
+      "coefficient": 3,
+      "difficulty": 6,
+      "description": "النموذج العلائقي، SQL، التطبيع"
+    },
+    {
+      "id": "se1_l2_s1",
+      "name": "أنظمة التشغيل 1",
+      "name_fr": "Systèmes d'Exploitation 1",
+      "code": "SE1",
+      "speciality_id": "licence_info",
+      "year": "L2",
+      "semester": 1,
+      "credits": 4,
+      "coefficient": 2,
+      "difficulty": 7,
+      "description": "إدارة العمليات، الذاكرة، الملفات"
+    },
+    {
+      "id": "reseaux_l2_s2",
+      "name": "شبكات الحاسوب",
+      "name_fr": "Réseaux Informatiques",
+      "code": "RES",
+      "speciality_id": "licence_info",
+      "year": "L2",
+      "semester": 2,
+      "credits": 4,
+      "coefficient": 2,
+      "difficulty": 7,
+      "description": "نموذج OSI، TCP/IP، البروتوكولات"
+    },
+    {
+      "id": "web_l2_s2",
+      "name": "تطوير الويب",
+      "name_fr": "Développement Web",
+      "code": "WEB",
+      "speciality_id": "licence_info",
+      "year": "L2",
+      "semester": 2,
+      "credits": 4,
+      "coefficient": 2,
+      "difficulty": 5,
+      "description": "HTML, CSS, JavaScript, PHP"
+    },
+    {
+      "id": "ml_m1_s1",
+      "name": "تعلم الآلة",
+      "name_fr": "Machine Learning",
+      "code": "ML",
+      "speciality_id": "master_ia",
+      "year": "M1",
+      "semester": 1,
+      "credits": 6,
+      "coefficient": 3,
+      "difficulty": 9,
+      "description": "خوارزميات التعلم الآلي الأساسية والمتقدمة"
+    },
+    {
+      "id": "dl_m1_s2",
+      "name": "التعلم العميق",
+      "name_fr": "Deep Learning",
+      "code": "DL",
+      "speciality_id": "master_ia",
+      "year": "M1",
+      "semester": 2,
+      "credits": 6,
+      "coefficient": 3,
+      "difficulty": 9,
+      "description": "الشبكات العصبية العميقة، CNN، RNN"
+    },
+    {
+      "id": "nlp_m2_s1",
+      "name": "معالجة اللغات الطبيعية",
+      "name_fr": "Traitement du Langage Naturel",
+      "code": "NLP",
+      "speciality_id": "master_ia",
+      "year": "M2",
+      "semester": 1,
+      "credits": 6,
+      "coefficient": 3,
+      "difficulty": 8,
+      "description": "تحليل النصوص، Transformers، BERT"
+    },
+    {
+      "id": "cv_m2_s1",
+      "name": "الرؤية الحاسوبية",
+      "name_fr": "Vision par Ordinateur",
+      "code": "CV",
+      "speciality_id": "master_ia",
+      "year": "M2",
+      "semester": 1,
+      "credits": 6,
+      "coefficient": 3,
+      "difficulty": 8,
+      "description": "معالجة الصور، التعرف على الأشياء"
+    },
+    {
+      "id": "sec_m1_s1",
+      "name": "أمن الشبكات",
+      "name_fr": "Sécurité des Réseaux",
+      "code": "SEC",
+      "speciality_id": "master_rsd",
+      "year": "M1",
+      "semester": 1,
+      "credits": 6,
+      "coefficient": 3,
+      "difficulty": 8,
+      "description": "التشفير، الجدران النارية، الهجمات"
+    },
+    {
+      "id": "cloud_m1_s2",
+      "name": "الحوسبة السحابية",
+      "name_fr": "Cloud Computing",
+      "code": "CLOUD",
+      "speciality_id": "master_rsd",
+      "year": "M1",
+      "semester": 2,
+      "credits": 6,
+      "coefficient": 3,
+      "difficulty": 7,
+      "description": "AWS, Docker, Kubernetes"
+    }
+  ],
+
+  "courses": [
+    {
+      "id": "cours_algo1_ch1",
+      "module_id": "algo1_l1_s1",
+      "title": "الفصل 1: مقدمة في الخوارزميات",
+      "chapter": 1,
+      "content": "## 1. تعريف الخوارزمية\n\nالخوارزمية هي مجموعة من الخطوات المحددة والمنظمة التي تؤدي إلى حل مسألة معينة في وقت محدود.\n\n## 2. خصائص الخوارزمية\n\n- **الوضوح (Clarity)**: كل خطوة يجب أن تكون واضحة ومحددة\n- **المحدودية (Finiteness)**: يجب أن تنتهي بعد عدد محدود من الخطوات\n- **المدخلات (Inputs)**: صفر أو أكثر من المدخلات\n- **المخرجات (Outputs)**: مخرج واحد على الأقل\n- **الفعالية (Effectiveness)**: كل خطوة قابلة للتنفيذ\n\n## 3. طرق كتابة الخوارزمية\n\n### أ. الوصف الطبيعي\nكتابة الخطوات بلغة عادية مفهومة\n\n### ب. المخطط الانسيابي (Flowchart)\nتمثيل بياني للخوارزمية باستخدام أشكال هندسية:\n- المستطيل: عملية/معالجة\n- المعين: قرار/شرط\n- متوازي الأضلاع: إدخال/إخراج\n- الدائرة: بداية/نهاية\n\n### ج. الشبه كود (Pseudo-code)\nلغة وسيطة بين اللغة الطبيعية ولغة البرمجة",
+      "duration_hours": 3,
+      "order": 1,
+      "objectives": ["فهم مفهوم الخوارزمية", "معرفة خصائص الخوارزمية الجيدة", "إتقان طرق كتابة الخوارزميات"],
+      "keywords": ["خوارزمية", "مخطط انسيابي", "شبه كود", "محدودية", "فعالية"]
+    },
+    {
+      "id": "cours_algo1_ch2",
+      "module_id": "algo1_l1_s1",
+      "title": "الفصل 2: تحليل تعقيد الخوارزميات",
+      "chapter": 2,
+      "content": "## 1. مفهوم التعقيد\n\nتعقيد الخوارزمية هو مقياس لكفاءتها من حيث:\n- **تعقيد الزمن (Time Complexity)**: الوقت اللازم للتنفيذ\n- **تعقيد المساحة (Space Complexity)**: الذاكرة المستخدمة\n\n## 2. الترميز Big-O\n\nيعبر عن الحد الأعلى لنمو الدالة:\n\n| التعقيد | الاسم | مثال |\n|---------|-------|------|\n| O(1) | ثابت | الوصول لعنصر في مصفوفة |\n| O(log n) | لوغاريتمي | البحث الثنائي |\n| O(n) | خطي | البحث التسلسلي |\n| O(n log n) | خطي لوغاريتمي | Merge Sort |\n| O(n²) | تربيعي | Bubble Sort |\n| O(2ⁿ) | أسي | Fibonacci التكراري |\n\n## 3. ترميزات أخرى\n\n- **Ω (Omega)**: الحد الأدنى\n- **Θ (Theta)**: الحدين معاً\n\n## 4. حساب التعقيد\n\n```\nللحلقات: اضرب عدد التكرارات\nللشروط: خذ أسوأ حالة\nللاستدعاءات المتداخلة: اضرب\n```",
+      "duration_hours": 4,
+      "order": 2,
+      "objectives": ["فهم مفهوم تعقيد الزمن والمساحة", "إتقان ترميز Big-O", "القدرة على حساب تعقيد الخوارزميات"],
+      "keywords": ["Big-O", "تعقيد الزمن", "تعقيد المساحة", "Omega", "Theta"]
+    },
+    {
+      "id": "cours_algo1_ch3",
+      "module_id": "algo1_l1_s1",
+      "title": "الفصل 3: المصفوفات والقوائم المتسلسلة",
+      "chapter": 3,
+      "content": "## 1. المصفوفات (Arrays)\n\n### تعريف\nهيكل بيانات يخزن عناصر من نفس النوع في مواقع متجاورة في الذاكرة.\n\n### خصائص المصفوفة\n- حجم ثابت (Static)\n- وصول مباشر O(1)\n- الإدراج/الحذف O(n)\n\n### المصفوفات ثنائية الأبعاد\n```\nT[i][j] = Base + (i * cols + j) * sizeof(element)\n```\n\n## 2. القوائم المتسلسلة (Linked Lists)\n\n### القائمة البسيطة\nكل عقدة تحتوي على:\n- البيانات (Data)\n- مؤشر للعقدة التالية (Next)\n\n### القائمة المزدوجة\nكل عقدة تحتوي على:\n- البيانات\n- مؤشر للعقدة التالية\n- مؤشر للعقدة السابقة\n\n### مقارنة المصفوفة والقائمة\n\n| العملية | المصفوفة | القائمة |\n|----------|----------|--------|\n| الوصول | O(1) | O(n) |\n| الإدراج في البداية | O(n) | O(1) |\n| الإدراج في النهاية | O(1) | O(n) |\n| الحذف | O(n) | O(1) |",
+      "duration_hours": 4,
+      "order": 3,
+      "objectives": ["فهم بنية المصفوفات", "إتقان القوائم المتسلسلة", "المقارنة بين الهياكل المختلفة"],
+      "keywords": ["مصفوفة", "قائمة متسلسلة", "عقدة", "مؤشر", "ذاكرة"]
+    },
+    {
+      "id": "cours_algo1_ch4",
+      "module_id": "algo1_l1_s1",
+      "title": "الفصل 4: المكدس والصف (Stack & Queue)",
+      "chapter": 4,
+      "content": "## 1. المكدس (Stack)\n\n### مبدأ LIFO\nآخر من يدخل أول من يخرج (Last In First Out)\n\n### العمليات الأساسية\n- **Push(x)**: إضافة عنصر في القمة\n- **Pop()**: إزالة العنصر من القمة\n- **Top()**: قراءة العنصر في القمة\n- **isEmpty()**: التحقق من الفراغ\n\n### التطبيقات\n- التحقق من توازن الأقواس\n- تحويل التعابير الرياضية (Infix to Postfix)\n- استدعاء الدوال (Call Stack)\n- التراجع (Undo)\n\n## 2. الصف (Queue)\n\n### مبدأ FIFO\nأول من يدخل أول من يخرج (First In First Out)\n\n### العمليات الأساسية\n- **Enqueue(x)**: إضافة في النهاية\n- **Dequeue()**: إزالة من البداية\n- **Front()**: قراءة العنصر الأول\n- **isEmpty()**: التحقق من الفراغ\n\n### التطبيقات\n- طوابير الانتظار\n- جدولة المهام\n- BFS (البحث بالعرض)\n- Buffer للطباعة\n\n## 3. الصف الدائري (Circular Queue)\n\nيستخدم المساحة بشكل أفضل:\n```\nnext = (current + 1) % size\n```",
+      "duration_hours": 3,
+      "order": 4,
+      "objectives": ["فهم بنية المكدس والصف", "إتقان العمليات الأساسية", "معرفة التطبيقات العملية"],
+      "keywords": ["Stack", "Queue", "LIFO", "FIFO", "Push", "Pop", "Enqueue", "Dequeue"]
+    },
+    {
+      "id": "cours_prog1_ch1",
+      "module_id": "prog1_l1_s1",
+      "title": "الفصل 1: مقدمة في لغة C",
+      "chapter": 1,
+      "content": "## 1. تاريخ لغة C\n\n- طُورت في مختبرات Bell عام 1972\n- المطور: Dennis Ritchie\n- استُخدمت لكتابة نظام UNIX\n- أساس العديد من اللغات الحديثة (C++, Java, C#)\n\n## 2. مميزات لغة C\n\n- **سريعة**: قريبة من لغة الآلة\n- **محمولة**: تعمل على معظم الأنظمة\n- **قوية**: تتحكم في الذاكرة\n- **مرنة**: برمجة إجرائية وهيكلية\n\n## 3. البنية الأساسية للبرنامج\n\n```c\n#include <stdio.h>  // مكتبات\n\nint main() {        // الدالة الرئيسية\n    printf(\"Hello World!\\n\");\n    return 0;\n}\n```\n\n## 4. مراحل الترجمة\n\n1. **المعالجة المسبقة** (Preprocessing): معالجة #include و #define\n2. **الترجمة** (Compilation): تحويل لـ Assembly\n3. **التجميع** (Assembly): تحويل لـ Object Code\n4. **الربط** (Linking): ربط المكتبات\n\n## 5. أول برنامج\n\n```c\n#include <stdio.h>\n\nint main() {\n    printf(\"مرحباً بالعالم!\\n\");\n    return 0;\n}\n```",
+      "duration_hours": 2,
+      "order": 1,
+      "objectives": ["معرفة تاريخ ومميزات لغة C", "فهم بنية البرنامج", "كتابة أول برنامج"],
+      "keywords": ["C", "stdio.h", "main", "printf", "compilation"]
+    },
+    {
+      "id": "cours_prog1_ch2",
+      "module_id": "prog1_l1_s1",
+      "title": "الفصل 2: المتغيرات وأنواع البيانات",
+      "chapter": 2,
+      "content": "## 1. أنواع البيانات الأساسية\n\n| النوع | الحجم | المدى |\n|-------|-------|-------|\n| char | 1 byte | -128 إلى 127 |\n| int | 4 bytes | ±2 مليار |\n| float | 4 bytes | 6 أرقام عشرية |\n| double | 8 bytes | 15 رقم عشري |\n\n## 2. تعريف المتغيرات\n\n```c\nint age = 20;\nfloat grade = 15.5;\nchar letter = 'A';\n```\n\n## 3. الثوابت\n\n```c\n#define PI 3.14159\nconst int MAX = 100;\n```\n\n## 4. العمليات الحسابية\n\n| العملية | الرمز | مثال |\n|---------|-------|------|\n| جمع | + | a + b |\n| طرح | - | a - b |\n| ضرب | * | a * b |\n| قسمة | / | a / b |\n| باقي القسمة | % | a % b |\n\n## 5. عمليات الزيادة والنقصان\n\n```c\ni++;   // i = i + 1\ni--;   // i = i - 1\ni += 5; // i = i + 5\n```\n\n## 6. الإدخال والإخراج\n\n```c\nint x;\nprintf(\"أدخل رقماً: \");\nscanf(\"%d\", &x);\nprintf(\"أدخلت: %d\\n\", x);\n```",
+      "duration_hours": 3,
+      "order": 2,
+      "objectives": ["معرفة أنواع البيانات", "تعريف واستخدام المتغيرات", "إجراء العمليات الحسابية"],
+      "keywords": ["int", "float", "char", "printf", "scanf", "متغير"]
+    },
+    {
+      "id": "cours_prog1_ch3",
+      "module_id": "prog1_l1_s1",
+      "title": "الفصل 3: الهياكل الشرطية",
+      "chapter": 3,
+      "content": "## 1. عوامل المقارنة\n\n| العامل | المعنى |\n|--------|--------|\n| == | يساوي |\n| != | لا يساوي |\n| > | أكبر من |\n| < | أصغر من |\n| >= | أكبر أو يساوي |\n| <= | أصغر أو يساوي |\n\n## 2. العوامل المنطقية\n\n| العامل | المعنى |\n|--------|--------|\n| && | AND (و) |\n| \\|\\| | OR (أو) |\n| ! | NOT (نفي) |\n\n## 3. جملة if\n\n```c\nif (condition) {\n    // كود إذا كان الشرط صحيحاً\n}\n```\n\n## 4. جملة if-else\n\n```c\nif (grade >= 10) {\n    printf(\"ناجح\");\n} else {\n    printf(\"راسب\");\n}\n```\n\n## 5. جملة if-else if-else\n\n```c\nif (grade >= 16) {\n    printf(\"ممتاز\");\n} else if (grade >= 14) {\n    printf(\"جيد جداً\");\n} else if (grade >= 12) {\n    printf(\"جيد\");\n} else if (grade >= 10) {\n    printf(\"مقبول\");\n} else {\n    printf(\"راسب\");\n}\n```\n\n## 6. جملة switch\n\n```c\nswitch (day) {\n    case 1: printf(\"الأحد\"); break;\n    case 2: printf(\"الإثنين\"); break;\n    default: printf(\"يوم غير معروف\");\n}\n```",
+      "duration_hours": 3,
+      "order": 3,
+      "objectives": ["إتقان عوامل المقارنة والمنطق", "استخدام if-else", "فهم جملة switch"],
+      "keywords": ["if", "else", "switch", "مقارنة", "شرط"]
+    },
+    {
+      "id": "cours_prog1_ch4",
+      "module_id": "prog1_l1_s1",
+      "title": "الفصل 4: الحلقات التكرارية",
+      "chapter": 4,
+      "content": "## 1. حلقة for\n\n```c\nfor (تهيئة; شرط; تحديث) {\n    // الكود المتكرر\n}\n\n// مثال: طباعة 1 إلى 10\nfor (int i = 1; i <= 10; i++) {\n    printf(\"%d \", i);\n}\n```\n\n## 2. حلقة while\n\n```c\nwhile (شرط) {\n    // الكود المتكرر\n}\n\n// مثال\nint i = 1;\nwhile (i <= 10) {\n    printf(\"%d \", i);\n    i++;\n}\n```\n\n## 3. حلقة do-while\n\n```c\ndo {\n    // الكود المتكرر (ينفذ مرة على الأقل)\n} while (شرط);\n\n// مثال: قراءة رقم موجب\nint n;\ndo {\n    printf(\"أدخل رقماً موجباً: \");\n    scanf(\"%d\", &n);\n} while (n <= 0);\n```\n\n## 4. break و continue\n\n```c\n// break: الخروج من الحلقة\nfor (int i = 0; i < 10; i++) {\n    if (i == 5) break;\n    printf(\"%d \", i);  // 0 1 2 3 4\n}\n\n// continue: تخطي التكرار الحالي\nfor (int i = 0; i < 10; i++) {\n    if (i % 2 == 0) continue;\n    printf(\"%d \", i);  // 1 3 5 7 9\n}\n```\n\n## 5. الحلقات المتداخلة\n\n```c\n// جدول الضرب\nfor (int i = 1; i <= 10; i++) {\n    for (int j = 1; j <= 10; j++) {\n        printf(\"%d×%d=%d\\t\", i, j, i*j);\n    }\n    printf(\"\\n\");\n}\n```",
+      "duration_hours": 3,
+      "order": 4,
+      "objectives": ["إتقان حلقة for", "فهم while و do-while", "استخدام break و continue"],
+      "keywords": ["for", "while", "do-while", "break", "continue", "تكرار"]
+    },
+    {
+      "id": "cours_prog1_ch5",
+      "module_id": "prog1_l1_s1",
+      "title": "الفصل 5: الدوال (Functions)",
+      "chapter": 5,
+      "content": "## 1. تعريف الدالة\n\n```c\nreturn_type function_name(parameters) {\n    // جسم الدالة\n    return value;\n}\n```\n\n## 2. مثال: دالة لحساب المربع\n\n```c\nint square(int x) {\n    return x * x;\n}\n\nint main() {\n    int result = square(5);  // 25\n    printf(\"%d\", result);\n    return 0;\n}\n```\n\n## 3. دالة بدون قيمة مرجعة (void)\n\n```c\nvoid greet(char name[]) {\n    printf(\"مرحباً %s!\\n\", name);\n}\n```\n\n## 4. التمرير بالقيمة vs بالمرجع\n\n```c\n// بالقيمة: نسخة من المتغير\nvoid double_value(int x) {\n    x = x * 2;  // لا يؤثر على الأصلي\n}\n\n// بالمرجع: عنوان المتغير\nvoid double_ref(int *x) {\n    *x = *x * 2;  // يؤثر على الأصلي\n}\n```\n\n## 5. المتغيرات المحلية والعامة\n\n```c\nint global = 10;  // متغير عام\n\nvoid func() {\n    int local = 5;  // متغير محلي\n    printf(\"%d %d\", global, local);\n}\n```\n\n## 6. الدوال التكرارية (Recursion)\n\n```c\nint factorial(int n) {\n    if (n <= 1) return 1;\n    return n * factorial(n - 1);\n}\n// factorial(5) = 5 × 4 × 3 × 2 × 1 = 120\n```",
+      "duration_hours": 4,
+      "order": 5,
+      "objectives": ["تعريف واستدعاء الدوال", "فهم أنواع التمرير", "إتقان الدوال التكرارية"],
+      "keywords": ["function", "return", "void", "recursion", "parameters"]
+    },
+    {
+      "id": "cours_bdd_ch1",
+      "module_id": "bdd_l2_s1",
+      "title": "الفصل 1: مقدمة في قواعد البيانات",
+      "chapter": 1,
+      "content": "## 1. تعريف قاعدة البيانات\n\nمجموعة منظمة من البيانات المترابطة المخزنة بطريقة تسمح بالوصول إليها وإدارتها بسهولة.\n\n## 2. أنواع قواعد البيانات\n\n### أ. العلائقية (Relational)\n- MySQL, PostgreSQL, Oracle\n- بيانات في جداول مترابطة\n\n### ب. غير العلائقية (NoSQL)\n- MongoDB, Redis, Cassandra\n- مرونة في البنية\n\n## 3. نظام إدارة قواعد البيانات (SGBD/DBMS)\n\nبرنامج يدير قاعدة البيانات ويوفر:\n- **التخزين**: حفظ البيانات\n- **الاسترجاع**: البحث والاستعلام\n- **الأمان**: حماية البيانات\n- **التكامل**: ضمان صحة البيانات\n- **التزامن**: إدارة الوصول المتعدد\n\n## 4. مستويات البيانات\n\n```\n        مستوى خارجي (Views)\n              ↓\n        مستوى منطقي (Schema)\n              ↓\n        مستوى فيزيائي (Storage)\n```\n\n## 5. مفاهيم أساسية\n\n- **البيانات (Data)**: حقائق خام\n- **المعلومات (Information)**: بيانات معالجة\n- **الجدول (Table)**: صفوف وأعمدة\n- **السجل (Record)**: صف واحد\n- **الحقل (Field)**: عمود واحد",
+      "duration_hours": 2,
+      "order": 1,
+      "objectives": ["فهم مفهوم قاعدة البيانات", "معرفة أنواع قواعد البيانات", "فهم دور SGBD"],
+      "keywords": ["قاعدة بيانات", "SGBD", "جدول", "سجل", "حقل"]
+    },
+    {
+      "id": "cours_bdd_ch2",
+      "module_id": "bdd_l2_s1",
+      "title": "الفصل 2: النموذج العلائقي",
+      "chapter": 2,
+      "content": "## 1. مفهوم النموذج العلائقي\n\nقدمه E.F. Codd عام 1970. يمثل البيانات كمجموعة من العلاقات (الجداول).\n\n## 2. المفاهيم الأساسية\n\n- **العلاقة (Relation)**: جدول\n- **الصف (Tuple)**: سجل\n- **العمود (Attribute)**: حقل\n- **المجال (Domain)**: القيم الممكنة للعمود\n\n## 3. أنواع المفاتيح\n\n### أ. المفتاح الأساسي (Primary Key)\n- يحدد كل سجل بشكل فريد\n- لا يقبل NULL\n- واحد لكل جدول\n\n### ب. المفتاح الأجنبي (Foreign Key)\n- يربط جدولين\n- يشير لمفتاح أساسي في جدول آخر\n\n### ج. المفتاح المرشح (Candidate Key)\n- يمكن أن يكون مفتاحاً أساسياً\n\n## 4. القيود (Constraints)\n\n```sql\nNOT NULL      -- لا يقبل قيم فارغة\nUNIQUE        -- قيم فريدة\nPRIMARY KEY   -- مفتاح أساسي\nFOREIGN KEY   -- مفتاح أجنبي\nCHECK         -- شرط مخصص\nDEFAULT       -- قيمة افتراضية\n```\n\n## 5. العلاقات بين الجداول\n\n- **1:1** - واحد لواحد\n- **1:N** - واحد لمتعدد\n- **N:M** - متعدد لمتعدد",
+      "duration_hours": 4,
+      "order": 2,
+      "objectives": ["فهم النموذج العلائقي", "إتقان أنواع المفاتيح", "معرفة القيود والعلاقات"],
+      "keywords": ["علاقة", "مفتاح أساسي", "مفتاح أجنبي", "قيود", "Codd"]
+    },
+    {
+      "id": "cours_bdd_ch3",
+      "module_id": "bdd_l2_s1",
+      "title": "الفصل 3: لغة SQL - الاستعلامات",
+      "chapter": 3,
+      "content": "## 1. أنواع أوامر SQL\n\n- **DDL**: إنشاء الهيكل (CREATE, ALTER, DROP)\n- **DML**: التعامل مع البيانات (SELECT, INSERT, UPDATE, DELETE)\n- **DCL**: التحكم بالصلاحيات (GRANT, REVOKE)\n\n## 2. الاستعلام SELECT\n\n```sql\nSELECT column1, column2\nFROM table_name\nWHERE condition\nORDER BY column ASC/DESC;\n```\n\n## 3. أمثلة عملية\n\n```sql\n-- جميع الطلاب\nSELECT * FROM Students;\n\n-- الأسماء فقط\nSELECT name, age FROM Students;\n\n-- الطلاب فوق 20 سنة\nSELECT * FROM Students WHERE age > 20;\n\n-- مرتبين بالاسم\nSELECT * FROM Students ORDER BY name;\n```\n\n## 4. عمليات التجميع (Aggregation)\n\n```sql\nCOUNT(*)  -- عدد السجلات\nSUM(col)  -- المجموع\nAVG(col)  -- المتوسط\nMAX(col)  -- الأكبر\nMIN(col)  -- الأصغر\n\n-- مثال\nSELECT COUNT(*) FROM Students;\nSELECT AVG(grade) FROM Grades WHERE module = 'ALGO';\n```\n\n## 5. GROUP BY و HAVING\n\n```sql\nSELECT module, AVG(grade)\nFROM Grades\nGROUP BY module\nHAVING AVG(grade) > 12;\n```\n\n## 6. الربط JOIN\n\n```sql\nSELECT S.name, G.grade\nFROM Students S\nINNER JOIN Grades G ON S.id = G.student_id;\n```",
+      "duration_hours": 6,
+      "order": 3,
+      "objectives": ["إتقان SELECT وفروعها", "استخدام دوال التجميع", "فهم عمليات الربط"],
+      "keywords": ["SELECT", "WHERE", "JOIN", "GROUP BY", "ORDER BY"]
+    },
+    {
+      "id": "cours_bdd_ch4",
+      "module_id": "bdd_l2_s1",
+      "title": "الفصل 4: التطبيع (Normalization)",
+      "chapter": 4,
+      "content": "## 1. مفهوم التطبيع\n\nعملية تنظيم البيانات لتقليل:\n- التكرار (Redundancy)\n- شذوذ التحديث (Update Anomalies)\n- شذوذ الإدراج (Insert Anomalies)\n- شذوذ الحذف (Delete Anomalies)\n\n## 2. التبعية الوظيفية (Functional Dependency)\n\nA → B: تعني أن A يحدد B\n\n## 3. الصيغ العادية\n\n### 1NF - الصيغة العادية الأولى\n- لا قيم متعددة في خلية واحدة\n- لا أعمدة مكررة\n\n### 2NF - الصيغة العادية الثانية\n- تحقق 1NF\n- لا تبعية جزئية للمفتاح\n\n### 3NF - الصيغة العادية الثالثة\n- تحقق 2NF\n- لا تبعية انتقالية\n\n### BCNF - صيغة Boyce-Codd\n- كل محدد هو مفتاح مرشح\n\n## 4. مثال عملي\n\n**جدول غير مُطبّع:**\n```\nStudent(id, name, courses)\n1, Ahmed, \"Math, Physics, CS\"\n```\n\n**بعد 1NF:**\n```\nStudent(id, name)\nEnrollment(student_id, course)\n```\n\n## 5. متى نتوقف عن التطبيع؟\n\n- عادة 3NF كافية\n- التطبيع المفرط يؤثر على الأداء\n- أحياناً denormalization مطلوب",
+      "duration_hours": 4,
+      "order": 4,
+      "objectives": ["فهم أهمية التطبيع", "إتقان الصيغ العادية", "تطبيق التطبيع عملياً"],
+      "keywords": ["تطبيع", "1NF", "2NF", "3NF", "BCNF", "تبعية وظيفية"]
+    },
+    {
+      "id": "cours_ml_ch1",
+      "module_id": "ml_m1_s1",
+      "title": "الفصل 1: مقدمة في تعلم الآلة",
+      "chapter": 1,
+      "content": "## 1. تعريف تعلم الآلة\n\n> \"A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E.\" - Tom Mitchell\n\n## 2. أنواع تعلم الآلة\n\n### أ. التعلم الموجه (Supervised Learning)\n- بيانات مُعنونة (labeled)\n- **تصنيف (Classification)**: توقع فئة\n- **انحدار (Regression)**: توقع قيمة\n\n### ب. التعلم غير الموجه (Unsupervised Learning)\n- بيانات غير مُعنونة\n- **تجميع (Clustering)**: تجميع البيانات المتشابهة\n- **تقليل الأبعاد (Dimensionality Reduction)**\n\n### ج. التعلم المعزز (Reinforcement Learning)\n- تعلم من التجربة والخطأ\n- Agent يتفاعل مع Environment\n- مكافآت وعقوبات\n\n## 3. مراحل مشروع ML\n\n```\n1. جمع البيانات\n   ↓\n2. معالجة البيانات\n   ↓\n3. اختيار النموذج\n   ↓\n4. التدريب\n   ↓\n5. التقييم\n   ↓\n6. النشر والمراقبة\n```\n\n## 4. تطبيقات ML\n\n- التعرف على الصور\n- ترجمة اللغات\n- السيارات ذاتية القيادة\n- أنظمة التوصية\n- كشف الاحتيال",
+      "duration_hours": 3,
+      "order": 1,
+      "objectives": ["فهم مفهوم تعلم الآلة", "التمييز بين أنواع التعلم", "معرفة مراحل مشروع ML"],
+      "keywords": ["Machine Learning", "Supervised", "Unsupervised", "Reinforcement", "Classification"]
+    },
+    {
+      "id": "cours_ml_ch2",
+      "module_id": "ml_m1_s1",
+      "title": "الفصل 2: الانحدار الخطي",
+      "chapter": 2,
+      "content": "## 1. الانحدار الخطي البسيط\n\n$$y = wx + b$$\n\n- **y**: المتغير التابع (الهدف)\n- **x**: المتغير المستقل (الميزة)\n- **w**: الميل (weight)\n- **b**: التقاطع (bias)\n\n## 2. دالة التكلفة (Cost Function)\n\n$$J(w,b) = \\frac{1}{2m} \\sum_{i=1}^{m} (\\hat{y}^{(i)} - y^{(i)})^2$$\n\n- MSE: Mean Squared Error\n- الهدف: تقليل J(w,b)\n\n## 3. Gradient Descent\n\n```python\nfor iteration in range(epochs):\n    w = w - α * (∂J/∂w)\n    b = b - α * (∂J/∂b)\n```\n\n- **α**: معدل التعلم (Learning Rate)\n\n## 4. الانحدار الخطي المتعدد\n\n$$y = w_1x_1 + w_2x_2 + ... + w_nx_n + b$$\n\nأو بالشكل المصفوفي:\n$$\\hat{y} = X \\cdot W + b$$\n\n## 5. التطبيق بـ Python\n\n```python\nfrom sklearn.linear_model import LinearRegression\n\nmodel = LinearRegression()\nmodel.fit(X_train, y_train)\npredictions = model.predict(X_test)\n```\n\n## 6. معايير التقييم\n\n- **MSE**: متوسط مربعات الأخطاء\n- **RMSE**: جذر MSE\n- **R²**: معامل التحديد (0 إلى 1)",
+      "duration_hours": 4,
+      "order": 2,
+      "objectives": ["فهم الانحدار الخطي", "إتقان Gradient Descent", "تقييم النماذج"],
+      "keywords": ["Linear Regression", "Cost Function", "Gradient Descent", "MSE", "R²"]
+    },
+    {
+      "id": "cours_ml_ch3",
+      "module_id": "ml_m1_s1",
+      "title": "الفصل 3: خوارزميات التصنيف",
+      "chapter": 3,
+      "content": "## 1. Logistic Regression\n\n### الدالة السينية (Sigmoid)\n$$\\sigma(z) = \\frac{1}{1 + e^{-z}}$$\n\n### التوقع\n$$P(y=1|x) = \\sigma(w \\cdot x + b)$$\n\n### دالة التكلفة (Binary Cross-Entropy)\n$$J = -\\frac{1}{m}\\sum[y\\log(\\hat{y}) + (1-y)\\log(1-\\hat{y})]$$\n\n## 2. Decision Trees\n\n### معايير التقسيم\n- **Gini Impurity**: $1 - \\sum p_i^2$\n- **Entropy**: $-\\sum p_i \\log(p_i)$\n- **Information Gain**: انخفاض Entropy\n\n### خوارزمية ID3\n1. اختر السمة ذات أعلى Information Gain\n2. قسّم البيانات\n3. كرر recursively\n\n## 3. Random Forest\n\n- مجموعة من أشجار القرار\n- كل شجرة تُدرب على عينة عشوائية\n- التصويت للحصول على النتيجة النهائية\n\n## 4. Support Vector Machine (SVM)\n\n- يبحث عن Hyperplane الأمثل\n- يزيد Margin بين الفئات\n- Kernel Trick للبيانات غير الخطية\n\n## 5. معايير تقييم التصنيف\n\n```\n              Predicted\n             +     -\nActual  +   TP    FN\n        -   FP    TN\n```\n\n- **Accuracy** = (TP+TN) / Total\n- **Precision** = TP / (TP+FP)\n- **Recall** = TP / (TP+FN)\n- **F1** = 2 × (P×R) / (P+R)",
+      "duration_hours": 6,
+      "order": 3,
+      "objectives": ["إتقان Logistic Regression", "فهم أشجار القرار", "تقييم نماذج التصنيف"],
+      "keywords": ["Logistic Regression", "Decision Tree", "Random Forest", "SVM", "Precision", "Recall"]
+    },
+    {
+      "id": "cours_ml_ch4",
+      "module_id": "ml_m1_s1",
+      "title": "الفصل 4: خوارزميات التجميع",
+      "chapter": 4,
+      "content": "## 1. مفهوم التجميع\n\nتقسيم البيانات إلى مجموعات بحيث:\n- العناصر داخل المجموعة متشابهة\n- العناصر بين المجموعات مختلفة\n\n## 2. K-Means\n\n### الخوارزمية\n```\n1. اختر k مراكز عشوائياً\n2. كرر:\n   a. اربط كل نقطة بأقرب مركز\n   b. أعد حساب المراكز\n   حتى الاستقرار\n```\n\n### كيف نختار k؟\n- **Elbow Method**: نقطة الانحناء\n- **Silhouette Score**: جودة التجميع\n\n## 3. Hierarchical Clustering\n\n### Agglomerative (من الأسفل للأعلى)\n1. ابدأ بكل نقطة كـ cluster\n2. ادمج أقرب clusters\n3. كرر حتى cluster واحد\n\n### مقاييس المسافة\n- **Single Linkage**: أقرب نقطتين\n- **Complete Linkage**: أبعد نقطتين\n- **Average Linkage**: متوسط المسافات\n\n### Dendrogram\nرسم شجري يوضح عملية الدمج\n\n## 4. DBSCAN\n\nDensity-Based Spatial Clustering\n\n- **ε (epsilon)**: نصف قطر الجوار\n- **MinPts**: الحد الأدنى للنقاط\n\n### أنواع النقاط\n- **Core Point**: ≥ MinPts في ε\n- **Border Point**: في جوار core point\n- **Noise**: ليست core أو border\n\n### مميزات DBSCAN\n- لا يحتاج عدد clusters مسبقاً\n- يكتشف الأشكال غير المنتظمة\n- يحدد الضوضاء",
+      "duration_hours": 4,
+      "order": 4,
+      "objectives": ["إتقان K-Means", "فهم Hierarchical Clustering", "استخدام DBSCAN"],
+      "keywords": ["K-Means", "Hierarchical", "DBSCAN", "Clustering", "Elbow Method"]
+    }
+  ],
+
+  "tds": [
+    {
+      "id": "td_algo1_1",
+      "module_id": "algo1_l1_s1",
+      "title": "TD 1: الخوارزميات الأساسية",
+      "number": 1,
+      "exercises": [
+        {
+          "id": "ex1",
+          "title": "تمرين 1",
+          "description": "اكتب خوارزمية لحساب مجموع الأعداد من 1 إلى N",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ex2",
+          "title": "تمرين 2",
+          "description": "اكتب خوارزمية للتحقق من أن عدداً أولياً",
+          "difficulty": "medium"
+        },
+        {
+          "id": "ex3",
+          "title": "تمرين 3",
+          "description": "اكتب خوارزمية لإيجاد PGCD لعددين باستخدام طريقة إقليدس",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "td_algo1_2",
+      "module_id": "algo1_l1_s1",
+      "title": "TD 2: تعقيد الخوارزميات",
+      "number": 2,
+      "exercises": [
+        {
+          "id": "ex1",
+          "title": "تمرين 1",
+          "description": "احسب تعقيد خوارزمية البحث التسلسلي",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ex2",
+          "title": "تمرين 2",
+          "description": "قارن بين تعقيد O(n), O(n²), O(log n)",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "td_algo1_3",
+      "module_id": "algo1_l1_s1",
+      "title": "TD 3: الجداول",
+      "number": 3,
+      "exercises": [
+        {
+          "id": "ex1",
+          "title": "تمرين 1",
+          "description": "اكتب خوارزمية لإيجاد أكبر عنصر في جدول",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ex2",
+          "title": "تمرين 2",
+          "description": "اكتب خوارزمية لترتيب جدول بطريقة الفقاعة",
+          "difficulty": "medium"
+        },
+        {
+          "id": "ex3",
+          "title": "تمرين 3",
+          "description": "اكتب خوارزمية للبحث الثنائي في جدول مرتب",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "td_prog1_1",
+      "module_id": "prog1_l1_s1",
+      "title": "TD 1: أساسيات C",
+      "number": 1,
+      "exercises": [
+        {
+          "id": "ex1",
+          "title": "تمرين 1",
+          "description": "اكتب برنامج يطبع 'Hello World'",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ex2",
+          "title": "تمرين 2",
+          "description": "اكتب برنامج يحسب مجموع عددين يدخلهما المستخدم",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "id": "td_prog1_2",
+      "module_id": "prog1_l1_s1",
+      "title": "TD 2: الشروط والحلقات",
+      "number": 2,
+      "exercises": [
+        {
+          "id": "ex1",
+          "title": "تمرين 1",
+          "description": "اكتب برنامج يحدد إذا كان العدد زوجياً أو فردياً",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ex2",
+          "title": "تمرين 2",
+          "description": "اكتب برنامج يطبع جدول الضرب لعدد معين",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "td_bdd_1",
+      "module_id": "bdd_l2_s1",
+      "title": "TD 1: SQL أساسي",
+      "number": 1,
+      "exercises": [
+        {
+          "id": "ex1",
+          "title": "تمرين 1",
+          "description": "اكتب استعلام SELECT لعرض جميع الطلاب",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ex2",
+          "title": "تمرين 2",
+          "description": "اكتب استعلام مع WHERE و ORDER BY",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "td_bdd_2",
+      "module_id": "bdd_l2_s1",
+      "title": "TD 2: الجمل المركبة",
+      "number": 2,
+      "exercises": [
+        {
+          "id": "ex1",
+          "title": "تمرين 1",
+          "description": "اكتب استعلام JOIN بين جدولين",
+          "difficulty": "medium"
+        },
+        {
+          "id": "ex2",
+          "title": "تمرين 2",
+          "description": "اكتب استعلام مع GROUP BY و HAVING",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "id": "td_ml_1",
+      "module_id": "ml_m1_s1",
+      "title": "TD 1: الانحدار الخطي",
+      "number": 1,
+      "exercises": [
+        {
+          "id": "ex1",
+          "title": "تمرين 1",
+          "description": "طبق الانحدار الخطي البسيط على مجموعة بيانات",
+          "difficulty": "medium"
+        },
+        {
+          "id": "ex2",
+          "title": "تمرين 2",
+          "description": "احسب MSE و R² لنموذج",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "td_ml_2",
+      "module_id": "ml_m1_s1",
+      "title": "TD 2: التصنيف",
+      "number": 2,
+      "exercises": [
+        {
+          "id": "ex1",
+          "title": "تمرين 1",
+          "description": "طبق Logistic Regression على مجموعة Iris",
+          "difficulty": "medium"
+        },
+        {
+          "id": "ex2",
+          "title": "تمرين 2",
+          "description": "قارن بين Decision Tree و Random Forest",
+          "difficulty": "hard"
+        }
+      ]
+    }
+  ],
+
+  "exams": [
+    {
+      "id": "exam_algo1_2024",
+      "module_id": "algo1_l1_s1",
+      "title": "امتحان الخوارزميات - دورة جانفي 2024",
+      "type": "final",
+      "date": "2024-01-15",
+      "duration_minutes": 90,
+      "total_points": 20,
+      "questions": [
+        {
+          "id": "q1",
+          "text": "عرّف الخوارزمية واذكر خصائصها الأساسية",
+          "points": 4,
+          "type": "theory"
+        },
+        {
+          "id": "q2",
+          "text": "اكتب خوارزمية لترتيب جدول بطريقة الإدراج مع حساب تعقيدها",
+          "points": 6,
+          "type": "algorithm"
+        },
+        {
+          "id": "q3",
+          "text": "قارن بين المكدس والصف من حيث البنية والاستخدام",
+          "points": 4,
+          "type": "comparison"
+        },
+        {
+          "id": "q4",
+          "text": "اكتب خوارزمية لعكس قائمة متسلسلة",
+          "points": 6,
+          "type": "algorithm"
+        }
+      ]
+    },
+    {
+      "id": "exam_algo1_rattrapage_2024",
+      "module_id": "algo1_l1_s1",
+      "title": "امتحان الخوارزميات - دورة الاستدراك 2024",
+      "type": "rattrapage",
+      "date": "2024-06-20",
+      "duration_minutes": 90,
+      "total_points": 20,
+      "questions": [
+        {
+          "id": "q1",
+          "text": "اشرح الفرق بين القائمة المتسلسلة البسيطة والمزدوجة",
+          "points": 4,
+          "type": "theory"
+        },
+        {
+          "id": "q2",
+          "text": "اكتب خوارزمية البحث الثنائي التكراري",
+          "points": 6,
+          "type": "algorithm"
+        }
+      ]
+    },
+    {
+      "id": "exam_prog1_2024",
+      "module_id": "prog1_l1_s1",
+      "title": "امتحان البرمجة 1 - دورة جانفي 2024",
+      "type": "final",
+      "date": "2024-01-18",
+      "duration_minutes": 120,
+      "total_points": 20,
+      "questions": [
+        {
+          "id": "q1",
+          "text": "اكتب برنامج C يقرأ جدول أعداد ويحسب المتوسط",
+          "points": 5,
+          "type": "programming"
+        },
+        {
+          "id": "q2",
+          "text": "اكتب دالة تعكس سلسلة محارف",
+          "points": 5,
+          "type": "programming"
+        },
+        {
+          "id": "q3",
+          "text": "اشرح الفرق بين المؤشرات والمصفوفات",
+          "points": 4,
+          "type": "theory"
+        },
+        {
+          "id": "q4",
+          "text": "اكتب برنامج يدير قائمة طلاب (إضافة، حذف، عرض)",
+          "points": 6,
+          "type": "programming"
+        }
+      ]
+    },
+    {
+      "id": "exam_bdd_2024",
+      "module_id": "bdd_l2_s1",
+      "title": "امتحان قواعد البيانات - دورة جانفي 2024",
+      "type": "final",
+      "date": "2024-01-20",
+      "duration_minutes": 90,
+      "total_points": 20,
+      "questions": [
+        {
+          "id": "q1",
+          "text": "صمم قاعدة بيانات لإدارة مكتبة",
+          "points": 6,
+          "type": "design"
+        },
+        {
+          "id": "q2",
+          "text": "اكتب استعلامات SQL للعمليات المطلوبة",
+          "points": 8,
+          "type": "sql"
+        },
+        {
+          "id": "q3",
+          "text": "طبق التطبيع على الجدول المعطى",
+          "points": 6,
+          "type": "normalization"
+        }
+      ]
+    },
+    {
+      "id": "exam_ml_2024",
+      "module_id": "ml_m1_s1",
+      "title": "امتحان تعلم الآلة - دورة جانفي 2024",
+      "type": "final",
+      "date": "2024-01-25",
+      "duration_minutes": 120,
+      "total_points": 20,
+      "questions": [
+        {
+          "id": "q1",
+          "text": "اشرح الفرق بين Supervised و Unsupervised Learning",
+          "points": 4,
+          "type": "theory"
+        },
+        {
+          "id": "q2",
+          "text": "طبق خوارزمية Gradient Descent على دالة معطاة",
+          "points": 6,
+          "type": "calculation"
+        },
+        {
+          "id": "q3",
+          "text": "قارن بين Precision, Recall و F1-Score",
+          "points": 4,
+          "type": "theory"
+        },
+        {
+          "id": "q4",
+          "text": "صمم pipeline كامل لمشكلة تصنيف",
+          "points": 6,
+          "type": "design"
+        }
+      ]
+    }
+  ],
+
+  "users": [
+    {
+      "email": "student1_l1@univ-alger.dz",
+      "password": "student123",
+      "name": "عمر بن سعيد",
+      "level": "L1",
+      "speciality_id": "licence_info",
+      "semester": 1,
+      "enrolled_modules": ["algo1_l1_s1", "prog1_l1_s1", "math1_l1_s1", "analyse1_l1_s1", "archi_l1_s1"],
+      "progress": {
+        "algo1_l1_s1": { "courses_completed": 2, "tds_completed": 1, "grade": null },
+        "prog1_l1_s1": { "courses_completed": 3, "tds_completed": 2, "grade": null },
+        "math1_l1_s1": { "courses_completed": 1, "tds_completed": 0, "grade": null }
+      }
+    },
+    {
+      "email": "student2_m1@univ-alger.dz",
+      "password": "student123",
+      "name": "سارة خليفي",
+      "level": "M1",
+      "speciality_id": "master_ia",
+      "semester": 1,
+      "enrolled_modules": ["ml_m1_s1"],
+      "progress": {
+        "ml_m1_s1": { "courses_completed": 3, "tds_completed": 2, "grade": 15.5 }
+      }
+    },
+    {
+      "email": "demo@student.ai",
+      "password": "demo123",
+      "name": "مستخدم تجريبي",
+      "level": "L2",
+      "speciality_id": "licence_info",
+      "semester": 1,
+      "enrolled_modules": ["bdd_l2_s1", "se1_l2_s1"],
+      "progress": {
+        "bdd_l2_s1": { "courses_completed": 2, "tds_completed": 1, "grade": null }
+      }
+    }
+  ],
+
+  "resources": [
+    {
+      "title": "مقدمة في الخوارزميات - فيديو شرح",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=example1",
+      "description": "شرح مفصل للخوارزميات الأساسية وتعقيداتها",
+      "module_id": "algo1_l1_s1",
+      "tags": ["خوارزميات", "تعقيد", "Big-O"]
+    },
+    {
+      "title": "دورة C للمبتدئين",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=example2",
+      "description": "تعلم لغة C من الصفر",
+      "module_id": "prog1_l1_s1",
+      "tags": ["C", "برمجة", "مبتدئين"]
+    },
+    {
+      "title": "ملخص SQL الشامل",
+      "type": "pdf",
+      "url": "https://example.com/sql-summary.pdf",
+      "description": "ملخص شامل لـ SQL مع أمثلة",
+      "module_id": "bdd_l2_s1",
+      "tags": ["SQL", "قواعد بيانات"]
+    },
+    {
+      "title": "Machine Learning بالعربي",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=example4",
+      "description": "دورة شاملة في تعلم الآلة",
+      "module_id": "ml_m1_s1",
+      "tags": ["ML", "ذكاء اصطناعي", "Python"]
+    }
+  ]
+}

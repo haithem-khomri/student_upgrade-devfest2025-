@@ -1,0 +1,3 @@
+/* This file imports globals.css to satisfy Next.js build requirements */
+@import './globals.css';
+
