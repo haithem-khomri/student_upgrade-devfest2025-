@@ -33,26 +33,27 @@ pip install -r requirements.txt
 # الانتقال إلى مجلد backend
 cd backend
 
-# تعيين متغيرات البيئة
-$env:MONGODB_URL = "mongodb+srv://haithemkho_db_user:mgkWMfbZJq1m1BAu@cluster0.pyk8hj8.mongodb.net/student_ai?retryWrites=true&w=majority&appName=Cluster0"
+# تعيين متغيرات البيئة (استبدل بالقيم الخاصة بك)
+$env:MONGODB_URL = "mongodb+srv://username:password@cluster.mongodb.net/student_ai?retryWrites=true&w=majority"
 $env:MONGODB_DB_NAME = "student_ai"
 $env:LLM_PROVIDER = "google"
-$env:GOOGLE_API_KEY = "AIzaSyAvcJO9FWFN2F1kLk7fRNyRw7pwNgmdbFQ"
+$env:GOOGLE_API_KEY = "your-google-api-key-here"
+$env:SECRET_KEY = "your-secret-key-here"
 
 # تشغيل السيرفر
 python -m uvicorn main:app --reload --host 127.0.0.1 --port 8001
 ```
 
-#### الطريقة الثالثة: استخدام .env file
+#### الطريقة الثالثة: استخدام .env file (موصى بها)
 
-أنشئ ملف `.env` في مجلد `backend`:
+أنشئ ملف `.env` في مجلد `backend` (انظر `.env.example` للقالب):
 
 ```env
-MONGODB_URL=mongodb+srv://haithemkho_db_user:mgkWMfbZJq1m1BAu@cluster0.pyk8hj8.mongodb.net/student_ai?retryWrites=true&w=majority&appName=Cluster0
+MONGODB_URL=mongodb+srv://username:password@cluster.mongodb.net/student_ai?retryWrites=true&w=majority
 MONGODB_DB_NAME=student_ai
 LLM_PROVIDER=google
-GOOGLE_API_KEY=AIzaSyAvcJO9FWFN2F1kLk7fRNyRw7pwNgmdbFQ
-SECRET_KEY=student-ai-secret-key-2025
+GOOGLE_API_KEY=your-google-api-key-here
+SECRET_KEY=your-secret-key-change-in-production
 ```
 
 ثم شغل:

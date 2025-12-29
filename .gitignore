@@ -84,3 +84,17 @@ frontend/scripts/*.js
 .vscode/settings.json
 .idea/workspace.xml
 
+# Sensitive files
+backend/start_server.ps1.local
+*.key
+*.pem
+*.cert
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini

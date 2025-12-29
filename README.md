@@ -86,17 +86,36 @@ uvicorn main:app --reload
 ### Environment Variables
 
 #### Frontend (.env.local)
+Create `frontend/.env.local`:
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:8000
+NEXT_PUBLIC_API_URL=http://localhost:8001
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ```
 
 #### Backend (.env)
+Create `backend/.env` (see `backend/.env.example` for template):
 ```env
-DATABASE_URL=postgresql://user:password@localhost/dbname
-MONGODB_URL=mongodb://localhost:27017
-GEMINI_API_KEY=your_gemini_api_key
-SECRET_KEY=your_secret_key
+MONGODB_URL=mongodb+srv://username:password@cluster.mongodb.net/student_ai?retryWrites=true&w=majority
+MONGODB_DB_NAME=student_ai
+LLM_PROVIDER=google
+GOOGLE_API_KEY=your-google-api-key-here
+SECRET_KEY=your-secret-key-change-in-production
 ```
+
+### Setup Demo Data
+
+After setting up the backend, run the demo data setup script:
+
+```bash
+cd backend
+python setup_demo.py
+```
+
+This will create:
+- 5 complete modules with courses, TDs, and exams
+- 36 courses with YouTube video links (108 videos total)
+- Demo user: `demo@student.ai` / `demo123`
+- Realistic progress and scores data
 
 ## 🧪 Testing
 

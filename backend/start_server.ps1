@@ -6,15 +6,38 @@ Write-Host "  STUDENT AI - BACKEND SERVER" -ForegroundColor Cyan
 Write-Host "============================================" -ForegroundColor Cyan
 Write-Host ""
 
-# Set environment variables
-$env:MONGODB_URL = "mongodb+srv://haithemkho_db_user:mgkWMfbZJq1m1BAu@cluster0.pyk8hj8.mongodb.net/student_ai?retryWrites=true&w=majority&appName=Cluster0"
-$env:MONGODB_DB_NAME = "student_ai"
-$env:LLM_PROVIDER = "google"
-$env:GOOGLE_API_KEY = "AIzaSyAvcJO9FWFN2F1kLk7fRNyRw7pwNgmdbFQ"
-$env:SECRET_KEY = "student-ai-secret-key-2025"
+# Set environment variables from .env file or environment
+# IMPORTANT: Create a .env file in the backend directory with your credentials
+# See .env.example for the required variables
 
-Write-Host "[OK] Environment variables set" -ForegroundColor Green
-Write-Host "  - MongoDB: student_ai @ cluster0.pyk8hj8.mongodb.net" -ForegroundColor Gray
+# Load from .env file if it exists
+if (Test-Path ".env") {
+    Get-Content .env | ForEach-Object {
+        if ($_ -match '^\s*([^#][^=]+)=(.*)$') {
+            $key = $matches[1].Trim()
+            $value = $matches[2].Trim()
+            [Environment]::SetEnvironmentVariable($key, $value, "Process")
+        }
+    }
+}
+
+# Set defaults if not in .env
+if (-not $env:MONGODB_URL) {
+    Write-Host "[WARNING] MONGODB_URL not set. Please create .env file or set environment variables." -ForegroundColor Yellow
+}
+if (-not $env:MONGODB_DB_NAME) {
+    $env:MONGODB_DB_NAME = "student_ai"
+}
+if (-not $env:LLM_PROVIDER) {
+    $env:LLM_PROVIDER = "google"
+}
+if (-not $env:SECRET_KEY) {
+    Write-Host "[WARNING] SECRET_KEY not set. Using default (NOT SECURE FOR PRODUCTION)." -ForegroundColor Yellow
+    $env:SECRET_KEY = "dev-secret-key-change-in-production"
+}
+
+Write-Host "[OK] Environment variables loaded" -ForegroundColor Green
+Write-Host "  - MongoDB DB: $env:MONGODB_DB_NAME" -ForegroundColor Gray
 Write-Host "  - LLM Provider: $env:LLM_PROVIDER" -ForegroundColor Gray
 Write-Host ""
 Write-Host "[INFO] Starting server on http://localhost:8001" -ForegroundColor Yellow
